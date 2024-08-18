@@ -1,9 +1,4 @@
-package model;
-
-import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
-import org.springframework.context.annotation.Bean;
+package ru.netology.model;
 
 import java.util.Objects;
 public class User {
