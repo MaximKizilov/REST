@@ -1,11 +1,12 @@
 package ru.netology.model;
 
 import java.util.Objects;
+
 public class User {
 
-    String user;
+    private String user;
 
-    String password;
+    private String password;
 
     public User() {
     }
@@ -19,16 +20,16 @@ public class User {
         return user;
     }
 
+    public void setUser(String user) {
+        this.user = user;
+    }
+
     public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
     }
 
     @Override
